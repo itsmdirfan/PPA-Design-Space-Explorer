@@ -105,5 +105,5 @@ for the degree of M.Tech in Microelectronics and VLSI,
 Department of Electronics and Communication Engineering,
 **National Institute of Technology Durgapur**.
 
-**Author:** Md. Irfan
+**Author:** Md. Irfan \n
 **Guide:** Dr. Sapana Ranwa, Assistant Professor, Dept. of ECE
