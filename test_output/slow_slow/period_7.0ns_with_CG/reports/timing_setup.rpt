@@ -1,0 +1,397 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 5
+Design : mips_top
+Version: U-2022.12-SP5
+Date   : Sat May  2 19:04:19 2026
+****************************************
+
+Operating Conditions: ss0p72v125c   Library: saed14rvt_base_ss0p72v125c
+Wire Load Model Mode: top
+
+  Startpoint: id_ex_rt_out_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ex_mem_zero_out_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                  Incr       Path
+  -------------------------------------------------------------------------
+  clock clk (rise edge)                                  0.00       0.00
+  clock network delay (ideal)                            0.00       0.00
+  id_ex_rt_out_reg_3_/CK (SAEDRVT14_FDPRBQ_V2_0P5)       0.00       0.00 r
+  id_ex_rt_out_reg_3_/Q (SAEDRVT14_FDPRBQ_V2_0P5)        0.17       0.17 f
+  U1614/X (SAEDRVT14_INV_S_1)                            0.26       0.43 r
+  U1451/X (SAEDRVT14_OAI22_0P75)                         0.13       0.57 f
+  U2116/X (SAEDRVT14_NR4_0P75)                           0.72       1.29 r
+  U1390/X (SAEDRVT14_BUF_S_2)                            0.60       1.90 r
+  U1596/X (SAEDRVT14_NR2_MM_4)                           0.34       2.24 f
+  U1445/X (SAEDRVT14_BUF_10)                             0.21       2.45 f
+  U1444/X (SAEDRVT14_NR2_MM_12)                          0.44       2.89 r
+  U2144/X (SAEDRVT14_ND2_CDC_0P5)                        0.17       3.06 f
+  U2146/X (SAEDRVT14_ND2_CDC_0P5)                        0.08       3.13 r
+  U2147/X (SAEDRVT14_AOI21_0P5)                          0.11       3.24 f
+  U2411/X (SAEDRVT14_ND2_CDC_0P5)                        0.08       3.32 r
+  U1384/X (SAEDRVT14_ND2_CDC_0P5)                        0.47       3.79 f
+  U1431/X (SAEDRVT14_INV_S_1)                            0.39       4.18 r
+  U1699/X (SAEDRVT14_EO2_0P5)                            0.16       4.34 r
+  DP_OP_141J2_122_2964_U28/CO (SAEDRVT14_ADDF_V1_1)      0.08       4.42 r
+  DP_OP_141J2_122_2964_U27/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.49 r
+  DP_OP_141J2_122_2964_U26/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.56 r
+  DP_OP_141J2_122_2964_U25/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.63 r
+  DP_OP_141J2_122_2964_U24/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.71 r
+  DP_OP_141J2_122_2964_U23/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.78 r
+  DP_OP_141J2_122_2964_U22/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.85 r
+  DP_OP_141J2_122_2964_U21/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.92 r
+  DP_OP_141J2_122_2964_U20/CO (SAEDRVT14_ADDF_V1_1)      0.07       4.99 r
+  DP_OP_141J2_122_2964_U19/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.06 r
+  DP_OP_141J2_122_2964_U18/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.13 r
+  DP_OP_141J2_122_2964_U17/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.20 r
+  DP_OP_141J2_122_2964_U16/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.28 r
+  DP_OP_141J2_122_2964_U15/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.35 r
+  DP_OP_141J2_122_2964_U14/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.42 r
+  DP_OP_141J2_122_2964_U13/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.49 r
+  DP_OP_141J2_122_2964_U12/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.56 r
+  DP_OP_141J2_122_2964_U11/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.64 r
+  DP_OP_141J2_122_2964_U10/CO (SAEDRVT14_ADDF_V1_1)      0.07       5.71 r
+  DP_OP_141J2_122_2964_U9/CO (SAEDRVT14_ADDF_V1_1)       0.07       5.78 r
+  DP_OP_141J2_122_2964_U8/CO (SAEDRVT14_ADDF_V1_1)       0.07       5.85 r
+  DP_OP_141J2_122_2964_U7/CO (SAEDRVT14_ADDF_V1_1)       0.07       5.92 r
+  DP_OP_141J2_122_2964_U6/CO (SAEDRVT14_ADDF_V1_1)       0.07       6.00 r
+  DP_OP_141J2_122_2964_U5/CO (SAEDRVT14_ADDF_V1_1)       0.07       6.07 r
+  DP_OP_141J2_122_2964_U4/CO (SAEDRVT14_ADDF_V1_1)       0.07       6.14 r
+  DP_OP_141J2_122_2964_U3/CO (SAEDRVT14_ADDF_V1_1)       0.07       6.21 r
+  U1418/X (SAEDRVT14_EO2_1)                              0.07       6.28 f
+  U3129/X (SAEDRVT14_AO21B_0P5)                          0.06       6.34 f
+  U1416/X (SAEDRVT14_AOI21_0P5)                          0.08       6.42 r
+  U1415/X (SAEDRVT14_OAI21_0P5)                          0.12       6.53 f
+  U1920/X (SAEDRVT14_AOI21_0P5)                          0.13       6.67 r
+  U3342/X (SAEDRVT14_AN4_1)                              0.09       6.76 r
+  U3344/X (SAEDRVT14_AN4_1)                              0.06       6.82 r
+  U3345/X (SAEDRVT14_AN4_1)                              0.06       6.88 r
+  U3346/X (SAEDRVT14_AN4_1)                              0.06       6.93 r
+  ex_mem_zero_out_reg/D (SAEDRVT14_FDPRBQ_V2LP_1)        0.00       6.93 r
+  data arrival time                                                 6.93
+
+  clock clk (rise edge)                                  7.00       7.00
+  clock network delay (ideal)                            0.00       7.00
+  clock uncertainty                                     -0.05       6.95
+  ex_mem_zero_out_reg/CK (SAEDRVT14_FDPRBQ_V2LP_1)       0.00       6.95 r
+  library setup time                                    -0.02       6.93
+  data required time                                                6.93
+  -------------------------------------------------------------------------
+  data required time                                                6.93
+  data arrival time                                                -6.93
+  -------------------------------------------------------------------------
+  slack (MET)                                                       0.00
+
+
+  Startpoint: id_ex_rt_out_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ex_mem_alu_result_out_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                          Incr       Path
+  ---------------------------------------------------------------------------------
+  clock clk (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                    0.00       0.00
+  id_ex_rt_out_reg_3_/CK (SAEDRVT14_FDPRBQ_V2_0P5)               0.00       0.00 r
+  id_ex_rt_out_reg_3_/Q (SAEDRVT14_FDPRBQ_V2_0P5)                0.17       0.17 f
+  U1614/X (SAEDRVT14_INV_S_1)                                    0.26       0.43 r
+  U1451/X (SAEDRVT14_OAI22_0P75)                                 0.13       0.57 f
+  U2116/X (SAEDRVT14_NR4_0P75)                                   0.72       1.29 r
+  U1390/X (SAEDRVT14_BUF_S_2)                                    0.60       1.90 r
+  U1596/X (SAEDRVT14_NR2_MM_4)                                   0.34       2.24 f
+  U1445/X (SAEDRVT14_BUF_10)                                     0.21       2.45 f
+  U1444/X (SAEDRVT14_NR2_MM_12)                                  0.44       2.89 r
+  U2144/X (SAEDRVT14_ND2_CDC_0P5)                                0.17       3.06 f
+  U2146/X (SAEDRVT14_ND2_CDC_0P5)                                0.08       3.13 r
+  U2147/X (SAEDRVT14_AOI21_0P5)                                  0.11       3.24 f
+  U2411/X (SAEDRVT14_ND2_CDC_0P5)                                0.08       3.32 r
+  U1384/X (SAEDRVT14_ND2_CDC_0P5)                                0.47       3.79 f
+  U1431/X (SAEDRVT14_INV_S_1)                                    0.39       4.18 r
+  U1699/X (SAEDRVT14_EO2_0P5)                                    0.16       4.34 r
+  DP_OP_141J2_122_2964_U28/CO (SAEDRVT14_ADDF_V1_1)              0.08       4.42 r
+  DP_OP_141J2_122_2964_U27/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.49 r
+  DP_OP_141J2_122_2964_U26/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.56 r
+  DP_OP_141J2_122_2964_U25/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.63 r
+  DP_OP_141J2_122_2964_U24/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.71 r
+  DP_OP_141J2_122_2964_U23/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.78 r
+  DP_OP_141J2_122_2964_U22/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.85 r
+  DP_OP_141J2_122_2964_U21/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.92 r
+  DP_OP_141J2_122_2964_U20/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.99 r
+  DP_OP_141J2_122_2964_U19/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.06 r
+  DP_OP_141J2_122_2964_U18/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.13 r
+  DP_OP_141J2_122_2964_U17/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.20 r
+  DP_OP_141J2_122_2964_U16/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.28 r
+  DP_OP_141J2_122_2964_U15/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.35 r
+  DP_OP_141J2_122_2964_U14/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.42 r
+  DP_OP_141J2_122_2964_U13/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.49 r
+  DP_OP_141J2_122_2964_U12/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.56 r
+  DP_OP_141J2_122_2964_U11/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.64 r
+  DP_OP_141J2_122_2964_U10/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.71 r
+  DP_OP_141J2_122_2964_U9/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.78 r
+  DP_OP_141J2_122_2964_U8/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.85 r
+  DP_OP_141J2_122_2964_U7/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.92 r
+  DP_OP_141J2_122_2964_U6/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.00 r
+  DP_OP_141J2_122_2964_U5/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.07 r
+  DP_OP_141J2_122_2964_U4/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.14 r
+  DP_OP_141J2_122_2964_U3/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.21 r
+  U1418/X (SAEDRVT14_EO2_1)                                      0.07       6.28 f
+  U3129/X (SAEDRVT14_AO21B_0P5)                                  0.06       6.34 f
+  U1416/X (SAEDRVT14_AOI21_0P5)                                  0.08       6.42 r
+  U1415/X (SAEDRVT14_OAI21_0P5)                                  0.12       6.53 f
+  U1920/X (SAEDRVT14_AOI21_0P5)                                  0.13       6.67 r
+  U1414/X (SAEDRVT14_OAI22_1)                                    0.11       6.78 f
+  ex_mem_alu_result_out_reg_31_/D (SAEDRVT14_FDPRBQ_V2LP_1)      0.00       6.78 f
+  data arrival time                                                         6.78
+
+  clock clk (rise edge)                                          7.00       7.00
+  clock network delay (ideal)                                    0.00       7.00
+  clock uncertainty                                             -0.05       6.95
+  ex_mem_alu_result_out_reg_31_/CK (SAEDRVT14_FDPRBQ_V2LP_1)     0.00       6.95 r
+  library setup time                                            -0.03       6.92
+  data required time                                                        6.92
+  ---------------------------------------------------------------------------------
+  data required time                                                        6.92
+  data arrival time                                                        -6.78
+  ---------------------------------------------------------------------------------
+  slack (MET)                                                               0.14
+
+
+  Startpoint: id_ex_rt_out_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ex_mem_alu_result_out_reg_30_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                          Incr       Path
+  ---------------------------------------------------------------------------------
+  clock clk (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                    0.00       0.00
+  id_ex_rt_out_reg_3_/CK (SAEDRVT14_FDPRBQ_V2_0P5)               0.00       0.00 r
+  id_ex_rt_out_reg_3_/Q (SAEDRVT14_FDPRBQ_V2_0P5)                0.17       0.17 f
+  U1614/X (SAEDRVT14_INV_S_1)                                    0.26       0.43 r
+  U1451/X (SAEDRVT14_OAI22_0P75)                                 0.13       0.57 f
+  U2116/X (SAEDRVT14_NR4_0P75)                                   0.72       1.29 r
+  U1390/X (SAEDRVT14_BUF_S_2)                                    0.60       1.90 r
+  U1596/X (SAEDRVT14_NR2_MM_4)                                   0.34       2.24 f
+  U1445/X (SAEDRVT14_BUF_10)                                     0.21       2.45 f
+  U1444/X (SAEDRVT14_NR2_MM_12)                                  0.44       2.89 r
+  U2144/X (SAEDRVT14_ND2_CDC_0P5)                                0.17       3.06 f
+  U2146/X (SAEDRVT14_ND2_CDC_0P5)                                0.08       3.13 r
+  U2147/X (SAEDRVT14_AOI21_0P5)                                  0.11       3.24 f
+  U2411/X (SAEDRVT14_ND2_CDC_0P5)                                0.08       3.32 r
+  U1384/X (SAEDRVT14_ND2_CDC_0P5)                                0.47       3.79 f
+  U1431/X (SAEDRVT14_INV_S_1)                                    0.39       4.18 r
+  U1699/X (SAEDRVT14_EO2_0P5)                                    0.16       4.34 r
+  DP_OP_141J2_122_2964_U28/CO (SAEDRVT14_ADDF_V1_1)              0.08       4.42 r
+  DP_OP_141J2_122_2964_U27/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.49 r
+  DP_OP_141J2_122_2964_U26/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.56 r
+  DP_OP_141J2_122_2964_U25/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.63 r
+  DP_OP_141J2_122_2964_U24/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.71 r
+  DP_OP_141J2_122_2964_U23/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.78 r
+  DP_OP_141J2_122_2964_U22/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.85 r
+  DP_OP_141J2_122_2964_U21/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.92 r
+  DP_OP_141J2_122_2964_U20/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.99 r
+  DP_OP_141J2_122_2964_U19/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.06 r
+  DP_OP_141J2_122_2964_U18/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.13 r
+  DP_OP_141J2_122_2964_U17/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.20 r
+  DP_OP_141J2_122_2964_U16/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.28 r
+  DP_OP_141J2_122_2964_U15/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.35 r
+  DP_OP_141J2_122_2964_U14/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.42 r
+  DP_OP_141J2_122_2964_U13/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.49 r
+  DP_OP_141J2_122_2964_U12/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.56 r
+  DP_OP_141J2_122_2964_U11/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.64 r
+  DP_OP_141J2_122_2964_U10/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.71 r
+  DP_OP_141J2_122_2964_U9/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.78 r
+  DP_OP_141J2_122_2964_U8/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.85 r
+  DP_OP_141J2_122_2964_U7/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.92 r
+  DP_OP_141J2_122_2964_U6/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.00 r
+  DP_OP_141J2_122_2964_U5/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.07 r
+  DP_OP_141J2_122_2964_U4/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.14 r
+  DP_OP_141J2_122_2964_U3/S (SAEDRVT14_ADDF_V1_1)                0.09       6.23 f
+  U3104/X (SAEDRVT14_AOI21_0P5)                                  0.06       6.28 r
+  U1417/X (SAEDRVT14_AN3_0P75)                                   0.10       6.38 r
+  U1461/X (SAEDRVT14_OAI22_0P5)                                  0.09       6.47 f
+  ex_mem_alu_result_out_reg_30_/D (SAEDRVT14_FDPRBQ_V2LP_1)      0.00       6.47 f
+  data arrival time                                                         6.47
+
+  clock clk (rise edge)                                          7.00       7.00
+  clock network delay (ideal)                                    0.00       7.00
+  clock uncertainty                                             -0.05       6.95
+  ex_mem_alu_result_out_reg_30_/CK (SAEDRVT14_FDPRBQ_V2LP_1)     0.00       6.95 r
+  library setup time                                            -0.05       6.90
+  data required time                                                        6.90
+  ---------------------------------------------------------------------------------
+  data required time                                                        6.90
+  data arrival time                                                        -6.47
+  ---------------------------------------------------------------------------------
+  slack (MET)                                                               0.43
+
+
+  Startpoint: id_ex_rt_out_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ex_mem_alu_result_out_reg_29_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                          Incr       Path
+  ---------------------------------------------------------------------------------
+  clock clk (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                    0.00       0.00
+  id_ex_rt_out_reg_3_/CK (SAEDRVT14_FDPRBQ_V2_0P5)               0.00       0.00 r
+  id_ex_rt_out_reg_3_/Q (SAEDRVT14_FDPRBQ_V2_0P5)                0.17       0.17 f
+  U1614/X (SAEDRVT14_INV_S_1)                                    0.26       0.43 r
+  U1451/X (SAEDRVT14_OAI22_0P75)                                 0.13       0.57 f
+  U2116/X (SAEDRVT14_NR4_0P75)                                   0.72       1.29 r
+  U1390/X (SAEDRVT14_BUF_S_2)                                    0.60       1.90 r
+  U1596/X (SAEDRVT14_NR2_MM_4)                                   0.34       2.24 f
+  U1445/X (SAEDRVT14_BUF_10)                                     0.21       2.45 f
+  U1444/X (SAEDRVT14_NR2_MM_12)                                  0.44       2.89 r
+  U2144/X (SAEDRVT14_ND2_CDC_0P5)                                0.17       3.06 f
+  U2146/X (SAEDRVT14_ND2_CDC_0P5)                                0.08       3.13 r
+  U2147/X (SAEDRVT14_AOI21_0P5)                                  0.11       3.24 f
+  U2411/X (SAEDRVT14_ND2_CDC_0P5)                                0.08       3.32 r
+  U1384/X (SAEDRVT14_ND2_CDC_0P5)                                0.47       3.79 f
+  U1431/X (SAEDRVT14_INV_S_1)                                    0.39       4.18 r
+  U1699/X (SAEDRVT14_EO2_0P5)                                    0.16       4.34 r
+  DP_OP_141J2_122_2964_U28/CO (SAEDRVT14_ADDF_V1_1)              0.08       4.42 r
+  DP_OP_141J2_122_2964_U27/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.49 r
+  DP_OP_141J2_122_2964_U26/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.56 r
+  DP_OP_141J2_122_2964_U25/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.63 r
+  DP_OP_141J2_122_2964_U24/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.71 r
+  DP_OP_141J2_122_2964_U23/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.78 r
+  DP_OP_141J2_122_2964_U22/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.85 r
+  DP_OP_141J2_122_2964_U21/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.92 r
+  DP_OP_141J2_122_2964_U20/CO (SAEDRVT14_ADDF_V1_1)              0.07       4.99 r
+  DP_OP_141J2_122_2964_U19/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.06 r
+  DP_OP_141J2_122_2964_U18/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.13 r
+  DP_OP_141J2_122_2964_U17/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.20 r
+  DP_OP_141J2_122_2964_U16/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.28 r
+  DP_OP_141J2_122_2964_U15/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.35 r
+  DP_OP_141J2_122_2964_U14/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.42 r
+  DP_OP_141J2_122_2964_U13/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.49 r
+  DP_OP_141J2_122_2964_U12/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.56 r
+  DP_OP_141J2_122_2964_U11/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.64 r
+  DP_OP_141J2_122_2964_U10/CO (SAEDRVT14_ADDF_V1_1)              0.07       5.71 r
+  DP_OP_141J2_122_2964_U9/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.78 r
+  DP_OP_141J2_122_2964_U8/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.85 r
+  DP_OP_141J2_122_2964_U7/CO (SAEDRVT14_ADDF_V1_1)               0.07       5.92 r
+  DP_OP_141J2_122_2964_U6/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.00 r
+  DP_OP_141J2_122_2964_U5/CO (SAEDRVT14_ADDF_V1_1)               0.07       6.07 r
+  DP_OP_141J2_122_2964_U4/S (SAEDRVT14_ADDF_V1_1)                0.09       6.15 f
+  U3073/X (SAEDRVT14_ND2_CDC_0P5)                                0.04       6.20 r
+  U3085/X (SAEDRVT14_AN4_1)                                      0.11       6.30 r
+  U1462/X (SAEDRVT14_OAI22_0P5)                                  0.09       6.39 f
+  ex_mem_alu_result_out_reg_29_/D (SAEDRVT14_FDPRBQ_V2LP_1)      0.00       6.39 f
+  data arrival time                                                         6.39
+
+  clock clk (rise edge)                                          7.00       7.00
+  clock network delay (ideal)                                    0.00       7.00
+  clock uncertainty                                             -0.05       6.95
+  ex_mem_alu_result_out_reg_29_/CK (SAEDRVT14_FDPRBQ_V2LP_1)     0.00       6.95 r
+  library setup time                                            -0.05       6.90
+  data required time                                                        6.90
+  ---------------------------------------------------------------------------------
+  data required time                                                        6.90
+  data arrival time                                                        -6.39
+  ---------------------------------------------------------------------------------
+  slack (MET)                                                               0.51
+
+
+  Startpoint: ex_mem_write_reg_out_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ex_mem_alu_result_out_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                         Incr       Path
+  --------------------------------------------------------------------------------
+  clock clk (rise edge)                                         0.00       0.00
+  clock network delay (ideal)                                   0.00       0.00
+  ex_mem_write_reg_out_reg_2_/CK (SAEDRVT14_FDPRBQ_V2_0P5)      0.00       0.00 r
+  ex_mem_write_reg_out_reg_2_/Q (SAEDRVT14_FDPRBQ_V2_0P5)       0.17       0.17 f
+  U1456/X (SAEDRVT14_INV_S_1)                                   0.17       0.34 r
+  U1610/X (SAEDRVT14_OAI22_0P5)                                 0.13       0.47 f
+  U1934/X (SAEDRVT14_AO221_0P5)                                 0.09       0.56 f
+  U1370/X (SAEDRVT14_OR2_MM_0P5)                                0.06       0.62 f
+  U1798/X (SAEDRVT14_NR2_5)                                     0.51       1.14 r
+  U1369/X (SAEDRVT14_OR3_1)                                     0.81       1.94 r
+  U1595/X (SAEDRVT14_INV_0P75)                                  0.43       2.37 f
+  U1378/X (SAEDRVT14_INV_S_1)                                   0.81       3.18 r
+  U1590/X (SAEDRVT14_NR2_1)                                     0.29       3.47 f
+  U1972/X (SAEDRVT14_AOI21_0P5)                                 0.12       3.59 r
+  U1376/X (SAEDRVT14_OAI21_0P5)                                 0.34       3.92 f
+  U1687/X (SAEDRVT14_OAI22_0P75)                                0.26       4.19 r
+  U3019/X (SAEDRVT14_OAI21_0P5)                                 0.11       4.30 f
+  U3020/X (SAEDRVT14_AO21B_0P5)                                 0.18       4.47 r
+  U3021/X (SAEDRVT14_OAI21_0P5)                                 0.10       4.57 f
+  U3023/X (SAEDRVT14_AOI21_0P5)                                 0.09       4.66 r
+  U1642/X (SAEDRVT14_AO32_U_0P5)                                0.09       4.75 r
+  U3024/X (SAEDRVT14_AOI21_0P5)                                 0.06       4.81 f
+  U1478/X (SAEDRVT14_OAI22_0P5)                                 0.11       4.92 r
+  U3025/X (SAEDRVT14_OA2BB2_V1_1)                               0.09       5.02 f
+  U3026/X (SAEDRVT14_OR4_1)                                     0.07       5.08 f
+  U3027/X (SAEDRVT14_AOI21_0P5)                                 0.06       5.14 r
+  U1477/X (SAEDRVT14_OAI22_0P5)                                 0.11       5.25 f
+  U3028/X (SAEDRVT14_AOI21_0P5)                                 0.11       5.35 r
+  U3029/X (SAEDRVT14_AOI21_0P5)                                 0.08       5.44 f
+  U3030/X (SAEDRVT14_AOI21_0P5)                                 0.11       5.54 r
+  U1474/X (SAEDRVT14_OAI22_0P5)                                 0.13       5.67 f
+  U3031/X (SAEDRVT14_AOI21_0P5)                                 0.09       5.77 r
+  U3033/X (SAEDRVT14_OAI21_0P5)                                 0.10       5.86 f
+  U3037/X (SAEDRVT14_AOI21_0P5)                                 0.08       5.94 r
+  U3047/X (SAEDRVT14_OA31_1)                                    0.06       6.01 r
+  U1618/X (SAEDRVT14_NR2_1)                                     0.05       6.05 f
+  U3056/X (SAEDRVT14_OA31_1)                                    0.07       6.12 f
+  U3057/X (SAEDRVT14_AO21B_0P5)                                 0.05       6.18 r
+  U3058/X (SAEDRVT14_AOI21_0P5)                                 0.10       6.28 f
+  U1617/X (SAEDRVT14_NR2_1)                                     0.10       6.37 r
+  ex_mem_alu_result_out_reg_0_/D (SAEDRVT14_FDPRBQ_V2LP_1)      0.00       6.37 r
+  data arrival time                                                        6.37
+
+  clock clk (rise edge)                                         7.00       7.00
+  clock network delay (ideal)                                   0.00       7.00
+  clock uncertainty                                            -0.05       6.95
+  ex_mem_alu_result_out_reg_0_/CK (SAEDRVT14_FDPRBQ_V2LP_1)     0.00       6.95 r
+  library setup time                                           -0.06       6.89
+  data required time                                                       6.89
+  --------------------------------------------------------------------------------
+  data required time                                                       6.89
+  data arrival time                                                       -6.37
+  --------------------------------------------------------------------------------
+  slack (MET)                                                              0.52
+
+
+1

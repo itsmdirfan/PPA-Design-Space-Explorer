@@ -1,0 +1,182 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 5
+Design : mips_top
+Version: U-2022.12-SP5
+Date   : Sat May  2 19:02:39 2026
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p72v125c   Library: saed14rvt_base_ss0p72v125c
+Wire Load Model Mode: top
+
+  Startpoint: id_ex_mem_write_out_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ex_mem_mem_write_out_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  id_ex_mem_write_out_reg/CK (SAEDRVT14_FDPRBQ_V2_0P5)      0.00 #     0.00 r
+  id_ex_mem_write_out_reg/Q (SAEDRVT14_FDPRBQ_V2_0P5)       0.10       0.10 f
+  ex_mem_mem_write_out_reg/D (SAEDRVT14_FDPRBQ_V2LP_1)      0.00       0.10 f
+  data arrival time                                                    0.10
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  clock uncertainty                                         0.05       0.05
+  ex_mem_mem_write_out_reg/CK (SAEDRVT14_FDPRBQ_V2LP_1)     0.00       0.05 r
+  library hold time                                         0.02       0.07
+  data required time                                                   0.07
+  ----------------------------------------------------------------------------
+  data required time                                                   0.07
+  data arrival time                                                   -0.10
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.03
+
+
+  Startpoint: ex_mem_jal_out_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_wb_jal_out_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                Incr       Path
+  -----------------------------------------------------------------------
+  clock clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                          0.00       0.00
+  ex_mem_jal_out_reg/CK (SAEDRVT14_FDPRBQ_V2_0P5)      0.00 #     0.00 r
+  ex_mem_jal_out_reg/Q (SAEDRVT14_FDPRBQ_V2_0P5)       0.10       0.10 f
+  mem_wb_jal_out_reg/D (SAEDRVT14_FDPRBQ_V2LP_1)       0.00       0.10 f
+  data arrival time                                               0.10
+
+  clock clk (rise edge)                                0.00       0.00
+  clock network delay (ideal)                          0.00       0.00
+  clock uncertainty                                    0.05       0.05
+  mem_wb_jal_out_reg/CK (SAEDRVT14_FDPRBQ_V2LP_1)      0.00       0.05 r
+  library hold time                                    0.02       0.07
+  data required time                                              0.07
+  -----------------------------------------------------------------------
+  data required time                                              0.07
+  data arrival time                                              -0.10
+  -----------------------------------------------------------------------
+  slack (MET)                                                     0.03
+
+
+  Startpoint: ex_mem_pc_plus4_out_reg_6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_wb_pc_plus4_out_reg_6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                         Incr       Path
+  --------------------------------------------------------------------------------
+  clock clk (rise edge)                                         0.00       0.00
+  clock network delay (ideal)                                   0.00       0.00
+  ex_mem_pc_plus4_out_reg_6_/CK (SAEDRVT14_FDPRBQ_V2_0P5)       0.00 #     0.00 r
+  ex_mem_pc_plus4_out_reg_6_/Q (SAEDRVT14_FDPRBQ_V2_0P5)        0.10       0.10 f
+  mem_wb_pc_plus4_out_reg_6_/D (SAEDRVT14_FDPRBQ_V2LP_0P5)      0.00       0.10 f
+  data arrival time                                                        0.10
+
+  clock clk (rise edge)                                         0.00       0.00
+  clock network delay (ideal)                                   0.00       0.00
+  clock uncertainty                                             0.05       0.05
+  mem_wb_pc_plus4_out_reg_6_/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)     0.00       0.05 r
+  library hold time                                             0.02       0.07
+  data required time                                                       0.07
+  --------------------------------------------------------------------------------
+  data required time                                                       0.07
+  data arrival time                                                       -0.10
+  --------------------------------------------------------------------------------
+  slack (MET)                                                              0.03
+
+
+  Startpoint: ex_mem_pc_plus4_out_reg_21_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_wb_pc_plus4_out_reg_21_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                          Incr       Path
+  ---------------------------------------------------------------------------------
+  clock clk (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                    0.00       0.00
+  ex_mem_pc_plus4_out_reg_21_/CK (SAEDRVT14_FDPRBQ_V2_0P5)       0.00 #     0.00 r
+  ex_mem_pc_plus4_out_reg_21_/Q (SAEDRVT14_FDPRBQ_V2_0P5)        0.10       0.10 f
+  mem_wb_pc_plus4_out_reg_21_/D (SAEDRVT14_FDPRBQ_V2LP_0P5)      0.00       0.10 f
+  data arrival time                                                         0.10
+
+  clock clk (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                    0.00       0.00
+  clock uncertainty                                              0.05       0.05
+  mem_wb_pc_plus4_out_reg_21_/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)     0.00       0.05 r
+  library hold time                                              0.02       0.07
+  data required time                                                        0.07
+  ---------------------------------------------------------------------------------
+  data required time                                                        0.07
+  data arrival time                                                        -0.10
+  ---------------------------------------------------------------------------------
+  slack (MET)                                                               0.03
+
+
+  Startpoint: ex_mem_pc_plus4_out_reg_29_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mem_wb_pc_plus4_out_reg_29_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mips_top           8000                  saed14rvt_base_ss0p72v125c
+
+  Point                                                          Incr       Path
+  ---------------------------------------------------------------------------------
+  clock clk (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                    0.00       0.00
+  ex_mem_pc_plus4_out_reg_29_/CK (SAEDRVT14_FDPRBQ_V2_0P5)       0.00 #     0.00 r
+  ex_mem_pc_plus4_out_reg_29_/Q (SAEDRVT14_FDPRBQ_V2_0P5)        0.10       0.10 f
+  mem_wb_pc_plus4_out_reg_29_/D (SAEDRVT14_FDPRBQ_V2LP_0P5)      0.00       0.10 f
+  data arrival time                                                         0.10
+
+  clock clk (rise edge)                                          0.00       0.00
+  clock network delay (ideal)                                    0.00       0.00
+  clock uncertainty                                              0.05       0.05
+  mem_wb_pc_plus4_out_reg_29_/CK (SAEDRVT14_FDPRBQ_V2LP_0P5)     0.00       0.05 r
+  library hold time                                              0.02       0.07
+  data required time                                                        0.07
+  ---------------------------------------------------------------------------------
+  data required time                                                        0.07
+  data arrival time                                                        -0.10
+  ---------------------------------------------------------------------------------
+  slack (MET)                                                               0.03
+
+
+1

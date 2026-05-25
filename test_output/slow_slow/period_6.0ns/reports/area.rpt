@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : mips_top
+Version: U-2022.12-SP5
+Date   : Sat May  2 19:01:09 2026
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_ss0p72v125c (File: /home/vlsi3/Documents/ppa_auto/real_test7/lib/saed14rvt_base_ss0p72v125c.db)
+
+Number of ports:                          283
+Number of nets:                          6940
+Number of cells:                         6701
+Number of combinational cells:           5244
+Number of sequential cells:              1456
+Number of macros/black boxes:               0
+Number of buf/inv:                        627
+Number of references:                      83
+
+Combinational area:               1571.715570
+Buf/Inv area:                      138.883197
+Noncombinational area:            1334.219993
+Macro/Black Box area:                0.000000
+Net Interconnect area:            6866.666079
+
+Total cell area:                  2905.935563
+Total area:                       9772.601642
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------
+mips_top                          2905.9356    100.0   714.3516   494.5272  0.0000  mips_top
+rf                                1697.0567     58.4   857.3640   839.6928  0.0000  register_file
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------
+Total                                                 1571.7156  1334.2200  0.0000
+
+1

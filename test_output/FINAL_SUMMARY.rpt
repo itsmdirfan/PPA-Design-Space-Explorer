@@ -1,0 +1,65 @@
+============================================================
+  PPA DESIGN SPACE EXPLORER — FINAL SUMMARY
+  Design : mips_top   File: mips_top.v
+  Date   : Sat May  2 19:04:20 IST 2026
+  VLSI PC: 3
+============================================================
+
+DETAILED RESULTS:
+------------------------------------------------------------
+CORNER               PERIOD     WNS(ns)    AREA(um2)      POWER(mW)    CG
+------------------------------------------------------------
+fast_fast            1.0ns      0.00       9323.582696    6.639        0
+fast_fast            2.0ns      0.01       9553.030414    3.360        0
+fast_fast            3.0ns      0.03       9866.456537    2.363        0
+fast_fast            4.0ns      0.17       9744.586319    1.694        0
+fast_fast            3.9ns      0.07       9706.903692    1.739        0
+typical_typical      4.0ns      0.03       9888.312785    1.295        0
+typical_typical      5.0ns      0.34       9852.789165    1.007        0
+typical_typical      6.0ns      0.33       9538.661895    0.840        0
+typical_typical      7.0ns      1.02       9556.517838    0.714        0
+typical_typical      8.0ns      0.84       9543.863819    0.624        0
+slow_slow            4.0ns      0.02       9467.591385    1.039        0
+slow_slow            5.0ns      0.02       9600.907213    0.839        0
+slow_slow            6.0ns      0.09       9772.601642    0.719        0
+slow_slow            7.0ns      0.50       9648.306400    0.598        0
+slow_slow            7.0_CGns   0.50       7407.726666    0.531        1
+------------------------------------------------------------
+
+============================================================
+  RECOMMENDATIONS
+============================================================
+
+  MAX SPEED  (Fast-Fast corner — tightest passing period)
+    Period : 4.0ns
+    Area   : 9744.586319 um2
+    Power  : 1.694 mW
+
+  BEST AREA  (Typical-Typical corner)
+    Period : 6.0ns
+    Area   : 9538.661895 um2
+    Power  : 0.840 mW
+
+  BEST POWER  (Slow-Slow, no clock gating)
+    Period : 7.0ns
+    Area   : 9648.306400 um2
+    Power  : 0.598 mW
+
+  BEST POWER WITH CLOCK GATING  (Slow-Slow + CG cells)
+    Period : 7.0ns
+    Power  : 0.531 mW
+    Clock gating power saving: 11.2%
+
+  BEST TRADEOFF  (Typical-Typical, timing just met)
+    Period : 5.0ns
+    Area   : 9852.789165 um2
+    Power  : 1.007 mW
+    Note   : Balanced PPA — good default choice
+
+============================================================
+  Output folders:
+    output/fast_fast/        — speed runs + trackback runs
+    output/typical_typical/  — area/tradeoff runs
+    output/slow_slow/        — power runs + CG run
+    output/FINAL_SUMMARY.rpt
+============================================================

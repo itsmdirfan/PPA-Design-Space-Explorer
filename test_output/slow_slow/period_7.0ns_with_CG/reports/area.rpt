@@ -1,0 +1,77 @@
+ 
+****************************************
+Report : area
+Design : mips_top
+Version: U-2022.12-SP5
+Date   : Sat May  2 19:04:19 2026
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_ss0p72v125c (File: /home/vlsi3/Documents/ppa_auto/real_test7/lib/saed14rvt_base_ss0p72v125c.db)
+
+Number of ports:                          415
+Number of nets:                          5785
+Number of cells:                         5415
+Number of combinational cells:           3892
+Number of sequential cells:              1489
+Number of macros/black boxes:               0
+Number of buf/inv:                        508
+Number of references:                      86
+
+Combinational area:               1194.848379
+Buf/Inv area:                      109.534798
+Noncombinational area:            1355.265592
+Macro/Black Box area:                0.000000
+Net Interconnect area:            4857.612694
+
+Total cell area:                  2550.113972
+Total area:                       7407.726666
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------------------
+mips_top                          2550.1140    100.0   646.1088   495.0600  0.0000  mips_top
+if_id_clk_gate_pc_plus4_out_reg      1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_if_id_reg
+pc_unit_clk_gate_pc_reg              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_pc_control
+rf                                1406.4588     55.2   528.2268   839.6928  0.0000  register_file
+rf/clk_gate_regs_reg_10_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_22
+rf/clk_gate_regs_reg_11_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_21
+rf/clk_gate_regs_reg_12_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_20
+rf/clk_gate_regs_reg_13_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_19
+rf/clk_gate_regs_reg_14_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_18
+rf/clk_gate_regs_reg_15_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_17
+rf/clk_gate_regs_reg_16_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_16
+rf/clk_gate_regs_reg_17_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_15
+rf/clk_gate_regs_reg_18_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_14
+rf/clk_gate_regs_reg_19_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_13
+rf/clk_gate_regs_reg_1_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_31
+rf/clk_gate_regs_reg_20_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_12
+rf/clk_gate_regs_reg_21_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_11
+rf/clk_gate_regs_reg_22_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_10
+rf/clk_gate_regs_reg_23_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_9
+rf/clk_gate_regs_reg_24_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_8
+rf/clk_gate_regs_reg_25_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_7
+rf/clk_gate_regs_reg_26_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_6
+rf/clk_gate_regs_reg_27_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_5
+rf/clk_gate_regs_reg_28_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_4
+rf/clk_gate_regs_reg_29_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_3
+rf/clk_gate_regs_reg_2_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_30
+rf/clk_gate_regs_reg_30_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_2
+rf/clk_gate_regs_reg_31_             1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_1
+rf/clk_gate_regs_reg_3_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_29
+rf/clk_gate_regs_reg_4_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_28
+rf/clk_gate_regs_reg_5_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_27
+rf/clk_gate_regs_reg_6_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_26
+rf/clk_gate_regs_reg_7_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_25
+rf/clk_gate_regs_reg_8_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_24
+rf/clk_gate_regs_reg_9_              1.2432      0.0     0.6216     0.6216  0.0000  SNPS_CLOCK_GATE_HIGH_register_file_23
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------------------
+Total                                                 1194.8484  1355.2656  0.0000
+
+1

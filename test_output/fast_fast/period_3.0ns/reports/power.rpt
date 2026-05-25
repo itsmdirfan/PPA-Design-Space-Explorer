@@ -1,0 +1,43 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : mips_top
+Version: U-2022.12-SP5
+Date   : Sat May  2 18:46:50 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_base_ff0p88v25c (File: /home/vlsi3/Documents/ppa_auto/real_test7/lib/saed14rvt_base_ff0p88v25c.db)
+
+
+Operating Conditions: ff0p88v25c   Library: saed14rvt_base_ff0p88v25c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mips_top               8000              saed14rvt_base_ff0p88v25c
+
+
+Global Operating Voltage = 0.88 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+mips_top                                  1.049    1.310 3.84e+06    2.363 100.0
+  rf (register_file)                      0.448    0.797 2.29e+06    1.248  52.8
+1
